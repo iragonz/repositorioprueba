@@ -59,5 +59,6 @@
         echo "Monedas de 5 céntimos: ".$mon005;
         echo "Monedas de 2 céntimos: ".$mon002;
         echo "Monedas de 1 céntimo: ".$mon001;
+        echo $diferencia;
     }
 ?>
