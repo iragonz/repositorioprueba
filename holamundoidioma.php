@@ -1,11 +1,11 @@
 <?php
     $idioma = $_GET["idioma"];
-    echo $idioma;
-    $es = "hola";
-    $en = "hello";
-    $fr = "Hallo";
-    $fr = "bojour";
-    $it = "ciao";
+    //echo $idioma;
+    $es = "Hola";
+    $en = "Hello";
+    $po = "Olá";
+    $fr = "Salut";
+    $it = "Ciao";
     $mostrar = $idioma;
     echo $$mostrar;
 ?>
