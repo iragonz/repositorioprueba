@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <img src="images/header.jpg" alt="Header" width="100%">
+        <h1>Diseño de interfaces</h1>
+        <nav>
+            <ul>
+                <li><a href="">Inicio<a href=""></a></li>
+                <li><a href="">Sobre el curso</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="POST" action="#">
+        <fieldset>
+            <legend>Datos del alumno</legend>
+            <ul>
+                <li>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre">
+                </li>
+                <li>
+                    <label for="pellidos">Apellidos: </label>
+                    <input type="text" id="apellidos" name="apellidos">
+                </li>
+                <li>
+                    <label for="fecha">Fecha: </label>
+                    <input type="date" id="fecha" name="fecha">
+                </li>
+                <li>
+                    <label for="tel">Teléfono: </label>
+                    <input type="tel" id="tel" name="tel" placeholder="666-666-666">
+                </li>
+                <li>
+                    <label for="mail">Email: </label>
+                    <input type="email" id="mail" name="mail" placeholder="sample@mail.com">
+                </li>
+                <li>
+                    <label for="user">Usuario: </label>
+                    <input type="text" id="user" name="user">
+                </li>
+                <li>
+                    <label for="pass">Contraseña: </label>
+                    <input type="password" id="pass" name="pass">
+                </li>
+            </ul>
+        </fieldset>  
+        <fieldset>
+            <legend>Preguntas sobre la teoría de Gestalt</legend>
+            <p></p>
+                <label for="preg">Preguntas contestadas:<br><progress
+                id="preg" value="0" max="100"></progress></label>
+            </p>
+            <ul>
+                <li>
+                    <p>Figura y fondo. Marque la correcta:</p>
+                    <ul>
+                        <li><label><input type="radio" name="1a" value="1a" id="1a">Esta ley analiza la tendencia de separar la figura de una imagen y su fondo.</label></li>
+                        <li><label><input type="radio" name="1b" value="1b" id="1b">La figura y el fondo no son estáticos, pueden intercambiar sus papeles.</label></li>
+                        <li><label><input type="radio" name="1c" value="1c" id="1c">Ninguna es correcta</label></li>
+                    </ul> 
+                </li>
+                <li>
+                    <p>Sube una foto de ley de simplicidad.</p>
+                    <label for="adjunto">Añade archivo (jpg o png)<input type="file" id="adjunto" name="foto" accept="image/png, image/jpeg"></label>
+                </li>
+                <li>
+                    <p>Marca las leyes de Gestalt.</p>
+                    <ul>
+                        <li><label><input type="checkbox" name="3a" value="3a" id="3a" checked>Ley de cierre.</label></li>
+                        <li><label><input type="checkbox" name="3b" value="3b" id="3b">Ley del contraste.</label></li>
+                        <li><label><input type="checkbox" name="3c" value="3c" id="3c">Ley de acercamiento.</label></li>
+                        <li><label><input type="checkbox" name="3d" value="3d" id="3d">Ley de la proximidad.</label></li>
+                        <li><label><input type="checkbox" name="3e" value="3e" id="3e">Ley de asimetría.</label></li>
+                    </ul>
+                </li>
+            </ul>
+        </fieldset> 
+        <fieldset>
+            <legend>Preguntas sobre la teoría del Color</legend>
+            <ul>
+                <li>
+                    <p>Elige dos colores complementarios (distintos a los propuestos):</p>
+                    <ul>
+                        <li><label><input type="color" id="color1" value="#00ff00"> Color</label></li>
+                        <li><label><input type="color" id="color1" value="#ff00ff"> Complementario</label></li>
+                    </ul> 
+                </li>
+                <li>
+                    <p>Psicología del color. Elige la opción correcta.</p>
+                    <ul>
+                        <li>
+                            <label for="5a">Blanco</label>
+                            <select id="5a">
+                                <option value="" selected disabled hidden>Elija una</option>
+                                <option value="1">Puro</option>
+                                <option value="2">Poderoso</option>
+                                <option value="3">Furia</option>
+                                <option value="4">Calma</option>
+                                <option value="5">Dulzura</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="5b">Negro</label>
+                            <select id="5b">
+                                <option value="" selected disabled hidden>Elija una</option>
+                                <option value="1">Puro</option>
+                                <option value="2">Poderoso</option>
+                                <option value="3">Furia</option>
+                                <option value="4">Calma</option>
+                                <option value="5">Dulzura</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="5c">Rojo</label>
+                            <select id="5c">
+                                <option value="" selected disabled hidden>Elija una</option>
+                                <option value="1">Puro</option>
+                                <option value="2">Poderoso</option>
+                                <option value="3">Furia</option>
+                                <option value="4">Calma</option>
+                                <option value="5">Dulzura</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="5d">Rosa</label>
+                            <select id="5d">
+                                <option value="" selected disabled hidden>Elija una</option>
+                                <option value="1">Puro</option>
+                                <option value="2">Poderoso</option>
+                                <option value="3">Furia</option>
+                                <option value="4">Calma</option>
+                                <option value="5">Dulzura</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Describa cuales son las partes de una guía de estilos:</p>
+                    <p>
+                        <label for="descripcion"></label>
+                        <textarea id="descripcion"></textarea>
+                    </p>
+                </li>
+            </ul>
+        </fieldset> 
+        <p>Indica el grado de dificultad que tiene el exámen:</p>
+        <p><label>Teoría de Gestalt: <input type="range" id="html" min="0" max="100" step="1"
+            value="50"></label></p>
+        <p><label>Tería del color: <input type="range" id="html" min="0" max="100" step="1"
+                value="50"></label></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
