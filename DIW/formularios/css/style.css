@@ -1,0 +1,32 @@
+#cabecera{
+    width:100%;
+    border-style: solid;
+    border-color: darkblue;
+}
+body{
+    text-align:left;
+    color:white;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 55%, rgba(9,9,121,1) 100%, rgba(0,0,0,1) 100%);
+}
+#titulo{
+    font-weight: bold;
+    color:rgb(255, 253, 159);
+}
+.menu{
+    width:200px;
+    list-style: none;
+    text-align: center;
+    font-family: "Arial";
+    color: black;
+    font-weight: bold;
+    background-color: rgb(139, 139, 255);
+    padding:25px;
+    margin:3px;
+}
+.menu:hover{
+    margin-left:50px;
+}
+.menu:active{
+    background-color: rgb(139, 139, 0);
+}
